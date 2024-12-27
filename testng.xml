@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<groups>
+			<run>
+				<include name="NavigationTests" />
+				<include name="LoginTests" />
+				<exclude name = "CartTests" />
+			</run>
+		</groups>
+
+		<classes>
+			<class name="com.nagarro.flipkart.tests.HomePageTest" />
+			<class name="com.nagarro.flipkart.tests.AboutPageTest" />
+			<class name="com.nagarro.flipkart.tests.AddAndRemoveItemFromCartTest" />
+			<class name="com.nagarro.flipkart.tests.BecomeASellerPageTest" />
+			<class name="com.nagarro.flipkart.tests.CareersPageTest" />
+			<class name="com.nagarro.flipkart.tests.ContactPageTest" />
+			<class name="com.nagarro.flipkart.tests.FlightBookingPageTest" />
+			<class name="com.nagarro.flipkart.tests.FlipkartSubscribeTest" />
+			<class name="com.nagarro.flipkart.tests.GiftCardsTest" />
+			<class name="com.nagarro.flipkart.tests.GroceryPageTest" />
+			<class name="com.nagarro.flipkart.tests.LoginPageTest" />
+			<class name="com.nagarro.flipkart.tests.MobilePageTest" />
+			<class name="com.nagarro.flipkart.tests.NavigaetToCartPageTest" />
+			<class name="com.nagarro.flipkart.tests.NotificationPageTest" />
+			<class name="com.nagarro.flipkart.tests.PinCodeTest" />
+			<class name="com.nagarro.flipkart.tests.ProductDetailsTest" />
+			<class name="com.nagarro.flipkart.tests.SaveForLaterTest" />
+			<class name="com.nagarro.flipkart.tests.SearchItemTest" />
+			<class name="com.nagarro.flipkart.tests.ShopsyNewSitePageTest" />
+			<class name="com.nagarro.flipkart.tests.TermsOfUsePageTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
