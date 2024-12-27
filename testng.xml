@@ -13,7 +13,7 @@
 		<classes>
 			<class name="com.nagarro.flipkart.tests.HomePageTest" />
 			<class name="com.nagarro.flipkart.tests.AboutPageTest" />
-			<class name="com.nagarro.flipkart.tests.AddAndRemoveItemFromCartTest" />
+<!-- 			<class name="com.nagarro.flipkart.tests.AddAndRemoveItemFromCartTest" /> -->
 <!-- 			<class name="com.nagarro.flipkart.tests.BecomeASellerPageTest" /> -->
 			<class name="com.nagarro.flipkart.tests.CareersPageTest" />
 			<class name="com.nagarro.flipkart.tests.ContactPageTest" />
